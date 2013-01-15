@@ -9,6 +9,9 @@ package lei.yu;
  */
 public class FizzBuzz {
     public String run(int inputNum) {
-        return "Fizz";  //To change body of created methods use File | Settings | File Templates.
+        if (inputNum % 3 == 0) {
+            return "Fizz";
+        }
+        return "";
     }
 }
